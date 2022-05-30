@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Me </title>
+</head>
+<body>
+    <h3> My Contact Details </h3>
+    <ul>
+        <li> Phone number: +2347080844432 </li>
+        <li> Email: debooeniola@gmail.com </li>
+    </ul>
+    <hr>
+    <form action="mailto:debooeniola@gmail.com" method="post" enctype="text/plain">
+        <!-- include 
+        1. action - to specify what should be done
+        2. method - to specify the post to be submitted
+        3. enctype - to define the code type to submit
+        -->
+        <label> Name: </label>
+        <input type="text" name="Name" value=""><br><br>
+        <label> Email: </label>
+        <input type="email" name="Email" value=""><br><br>
+        <label> Phone Number: </label>
+        <input type="number" name="Tel"><br><br>
+        <labe> Your Message: </labe><br>
+        <textarea rows="10px" cols="30px"></textarea><br><br> <!-- incude rols & cols to specify text area-->
+        <input type="submit">
+    </form>
+</body>
+</html>
